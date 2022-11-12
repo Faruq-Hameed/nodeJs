@@ -1,0 +1,26 @@
+// const getName = () => {
+//     return 'Jim';
+//   };
+  
+//   const getLocation = () => {
+//     return 'Munich';
+//   };
+  
+//   const dateOfBirth = '12.01.1982';
+  
+//   exports.getName = getName;
+//   exports.getLocation = getLocation;
+//   exports.dob = dateOfBirth;
+
+module.exports = {
+    getName: () => {
+        return 'Jim';
+    },
+
+    getLocation: () => {
+        return 'Munich';
+    },
+
+    dateOfBirth: '12.01.1982'
+}
+  
